@@ -4,7 +4,13 @@
 
 ## 使用方法
 
-`go get github.com/mereithhh/go-traditional-chinese-detector`
+### 安装
+
+```bash
+go get github.com/mereithhh/go-traditional-chinese-detector
+```
+
+### 使用
 
 ```go
 package main
