@@ -2,7 +2,7 @@
 
 只探测纯繁体中文，繁体中文和简体中文字一样的不会通过检测。
 
-## 使用方法
+## 开始使用
 
 ### 安装
 
@@ -10,7 +10,7 @@
 go get github.com/mereithhh/go-traditional-chinese-detector
 ```
 
-### 使用
+### 使用（内置字典）
 
 ```go
 package main
@@ -32,4 +32,20 @@ func main() {
 
 }
 
+```
+
+### 自定义探测字典
+
+```go
+package main
+
+import (
+	"fmt"
+	detector "github.com/mereithhh/go-traditional-chinese-detector"
+)
+
+func main() {
+
+
+}
 ```
