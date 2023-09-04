@@ -56,7 +56,7 @@ func getCustomDict() ([]string, error) {
 func main() {
 
 	// 初始化探测器，使用自定义的字典获取函数，字典更新间隔为60秒
-	d, err := detector.NewCustomDetector(getCustomDict, 1)
+	d, err := detector.NewCustomDetector(getCustomDict, 60)
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
